@@ -26,7 +26,7 @@ mongoose.connect(
 
 const db = mongoose.connection;
 db.once("open", () => {
-  console.log("Successfully connected to MongoDB using Mongoose!");
+  console.log("Successfully connect Mongoose!");
 });
 
 app.set("port", process.env.PORT || port);

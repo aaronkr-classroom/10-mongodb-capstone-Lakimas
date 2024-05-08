@@ -66,7 +66,7 @@ exports.deleteAllSubscribers = (req, res) => {
     });
   })
   .catch(error => {
-    console.log(`Errpr: ${error.massage}`);
+    console.log(`Error: ${error.massage}`);
     return next(error);
   })
 };
